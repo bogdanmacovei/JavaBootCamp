@@ -1,0 +1,26 @@
+[
+  {
+    "id": "4e39354a-3cff-11e8-adb1-ffdc273562b8",
+    "vehicleTypeName": "CAR",
+    "vehicleTypeFormula": "CAR_BASIC_FORMULA",
+    "age": 8,
+    "numberOfMiles": 200000,
+    "diesel": true
+  },
+  {
+    "id": "57187a22-3cff-11e8-a4b7-873ef1d41766",
+    "vehicleTypeName": "CAR",
+    "vehicleTypeFormula": "CAR_BASIC_FORMULA",
+    "age": 8,
+    "numberOfMiles": 200000,
+    "diesel": true
+  },
+  {
+    "id": "5e995eec-3cff-11e8-aa13-6b6265c630eb",
+    "vehicleTypeName": "CAR",
+    "vehicleTypeFormula": "CAR_BASIC_FORMULA",
+    "age": 8,
+    "numberOfMiles": 200000,
+    "diesel": false
+  }
+]

@@ -37,6 +37,27 @@ public enum Formula {
 
             return cost;
         }
+    },
+
+    CAR_CHRISTMAS_FORMULA {
+        @Override
+        public int calculate(Vehicle vehicle) {
+            return (int)(CAR_BASIC_FORMULA.calculate(vehicle) * 0.95);
+        }
+    },
+
+    BUS_CHRISTMAS_FORMULA {
+        @Override
+        public int calculate(Vehicle vehicle) {
+            return (int)(BUS_BASIC_FORMULA.calculate(vehicle) * 0.9);
+        }
+    },
+
+    TIPPER_CHRISTMAS_FORMULA {
+        @Override
+        public int calculate(Vehicle vehicle) {
+            return (int)(TIPPER_BASIC_FORMULA.calculate(vehicle) * 0.85);
+        }
     };
 
     Formula() {
